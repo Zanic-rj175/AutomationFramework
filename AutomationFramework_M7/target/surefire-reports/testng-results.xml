@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[---DataBase connection Established---]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+    </line>
+    <line>
+      <![CDATA[---DataBase connection Disconnection---]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-05T05:47:38Z" name="Suite" finished-at="2025-02-05T05:49:09Z" duration-ms="90659">
+    <groups>
+      <group name="smoke">
+        <method signature="ToCreateContactTest.toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@2a693f59]" name="toCreateContact_001" class="contactTest.ToCreateContactTest"/>
+        <method signature="ToCreateContactwithOrgTest.toCreateContactWithOrgTest_002()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" name="toCreateContactWithOrgTest_002" class="contactTest.ToCreateContactwithOrgTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-02-05T05:47:38Z" name="Test" finished-at="2025-02-05T05:49:09Z" duration-ms="90659">
+      <class name="contactTest.ToCreateContactTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactTest@2a693f59]" started-at="2025-02-05T11:18:41Z" name="bcConfig" finished-at="2025-02-05T11:18:44Z" duration-ms="2813" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactTest@2a693f59]" started-at="2025-02-05T11:18:44Z" name="bmConfig" finished-at="2025-02-05T11:18:49Z" duration-ms="5344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@2a693f59]" started-at="2025-02-05T11:18:49Z" name="toCreateContact_001" finished-at="2025-02-05T11:19:08Z" duration-ms="19282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateContact_001 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactTest@2a693f59]" started-at="2025-02-05T11:19:08Z" name="amConfig" finished-at="2025-02-05T11:19:08Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactTest@2a693f59]" started-at="2025-02-05T11:19:08Z" name="acConfig" finished-at="2025-02-05T11:19:09Z" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- contactTest.ToCreateContactTest -->
+      <class name="contactTest.ToCreateContactwithOrgTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:17:38Z" name="bsConfig" finished-at="2025-02-05T11:17:38Z" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---DataBase connection Established---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:17:38Z" name="bcConfig" finished-at="2025-02-05T11:18:10Z" duration-ms="31497" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:18:10Z" name="bmConfig" finished-at="2025-02-05T11:18:16Z" duration-ms="6320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateContactWithOrgTest_002()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:18:16Z" name="toCreateContactWithOrgTest_002" finished-at="2025-02-05T11:18:40Z" duration-ms="24132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateContactWithOrgTest_002 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:18:40Z" name="amConfig" finished-at="2025-02-05T11:18:40Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:18:40Z" name="acConfig" finished-at="2025-02-05T11:18:41Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@433defed]" started-at="2025-02-05T11:19:09Z" name="asConfig" finished-at="2025-02-05T11:19:09Z" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---DataBase connection Disconnection---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- contactTest.ToCreateContactwithOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
