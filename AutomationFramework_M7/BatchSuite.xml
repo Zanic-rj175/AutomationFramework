@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="contactTest.ToCreateContactTest"/>
+      <class name="contactTest.ToCreateContactwithOrgTest"/>
+      <class name="organizationTest.ToCreateOrgTest"/>
       <class name="organizationTest.ToCreateOrgWithChemicalDropdown"/>
       <class name="organizationTest.ToCreateOrgWithTypeDropdown"/>
-      <class name="organizationTest.ToCreateOrgTest"/>
-      <class name="contactTest.ToCreateContactwithOrgTest"/>
-      <class name="contactTest.ToCreateContactTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
