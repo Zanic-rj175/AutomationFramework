@@ -3,6 +3,8 @@ package contactTest;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericUtility.BaseClass;
@@ -34,11 +36,13 @@ public class ToCreateContactwithOrgTest extends BaseClass {
 		ccp.getSaveButton().click();
 		ContactInfoPage cip = new ContactInfoPage(driver);
 		String lastname = cip.getHeaderTitle().getText();
-		if (lastname.contains(LASTNAME)) {
+		Assert.assertTrue(lastname.contains(LASTNAME));
+		Reporter.log("Contact with Organization Test create successfully",true);
+		/*if (lastname.contains(LASTNAME)) {
 			System.out.println(lastname + "---Passed");
 		} else {
 			System.out.println(lastname + "---Failed");
-		}
+		}*/
 
 	}
 

@@ -11,64 +11,58 @@
       <![CDATA[Navigate to Vtiger HomePage Successfully]]>
     </line>
     <line>
-      <![CDATA[Contact create successfully]]>
-    </line>
-    <line>
       <![CDATA[---DataBase connection Disconnection---]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-13T21:53:03 IST" name="Default suite" finished-at="2025-02-13T21:53:17 IST" duration-ms="13928">
+  <suite started-at="2025-02-13T23:17:14 IST" name="Default suite" finished-at="2025-02-13T23:17:28 IST" duration-ms="13613">
     <groups>
-      <group name="smoke">
-        <method signature="ToCreateContactTest.toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" name="toCreateContact_001" class="contactTest.ToCreateContactTest"/>
-      </group> <!-- smoke -->
+      <group name="regration">
+        <method signature="ToCreateOrgWithTypeDropdownTest.toCreateOrgWithTypeDropdown_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" name="toCreateOrgWithTypeDropdown_003" class="organizationTest.ToCreateOrgWithTypeDropdownTest"/>
+      </group> <!-- regration -->
     </groups>
-    <test started-at="2025-02-13T21:53:03 IST" name="Default test" finished-at="2025-02-13T21:53:17 IST" duration-ms="13928">
-      <class name="contactTest.ToCreateContactTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:03 IST" name="bsConfig" finished-at="2025-02-13T21:53:03 IST" duration-ms="9" status="PASS">
+    <test started-at="2025-02-13T23:17:14 IST" name="Default test" finished-at="2025-02-13T23:17:28 IST" duration-ms="13613">
+      <class name="organizationTest.ToCreateOrgWithTypeDropdownTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:14 IST" name="bsConfig" finished-at="2025-02-13T23:17:14 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---DataBase connection Established---]]>
             </line>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:03 IST" name="bcConfig" finished-at="2025-02-13T21:53:06 IST" duration-ms="2950" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:14 IST" name="bcConfig" finished-at="2025-02-13T23:17:17 IST" duration-ms="2917" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got Launched Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:06 IST" name="bmConfig" finished-at="2025-02-13T21:53:08 IST" duration-ms="2326" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:17 IST" name="bmConfig" finished-at="2025-02-13T23:17:19 IST" duration-ms="2301" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to Vtiger HomePage Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:08 IST" name="toCreateContact_001" finished-at="2025-02-13T21:53:16 IST" duration-ms="7922" status="PASS">
+        <test-method signature="toCreateOrgWithTypeDropdown_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:19 IST" name="toCreateOrgWithTypeDropdown_003" finished-at="2025-02-13T23:17:27 IST" duration-ms="7934" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Contact create successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- toCreateContact_001 -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:16 IST" name="amConfig" finished-at="2025-02-13T21:53:16 IST" duration-ms="134" status="PASS">
+        </test-method> <!-- toCreateOrgWithTypeDropdown_003 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:27 IST" name="amConfig" finished-at="2025-02-13T23:17:27 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:16 IST" name="acConfig" finished-at="2025-02-13T21:53:17 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:27 IST" name="acConfig" finished-at="2025-02-13T23:17:28 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:contactTest.ToCreateContactTest@368f2016]" started-at="2025-02-13T21:53:17 IST" name="asConfig" finished-at="2025-02-13T21:53:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@7cc0cdad]" started-at="2025-02-13T23:17:28 IST" name="asConfig" finished-at="2025-02-13T23:17:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---DataBase connection Disconnection---]]>
             </line>
           </reporter-output>
         </test-method> <!-- asConfig -->
-      </class> <!-- contactTest.ToCreateContactTest -->
+      </class> <!-- organizationTest.ToCreateOrgWithTypeDropdownTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
