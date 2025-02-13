@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -26,17 +27,17 @@ public class ToCreateContactTest extends BaseClass {
 		String LASTNAME = eutil.toReadDataFromExcel("Contacts", 1, 2);
 		ccp.getLastnameTextfielld().sendKeys(LASTNAME);
 		ccp.getSaveButton().click();
-		Assert.fail();
+		//Assert.fail();
 		ContactInfoPage cip = new ContactInfoPage(driver);
 		String lastname = cip.getHeaderTitle().getText();
-//		Assert.assertTrue(lastname.contains(LASTNAME));
-//		Reporter.log("Contact create successfully",true);
+		Assert.assertTrue(lastname.contains(LASTNAME));
+		Reporter.log("Contact create successfully",true);
 		
-		if (lastname.contains(LASTNAME)) {
+	/*	if (lastname.contains(LASTNAME)) {
 			System.out.println(lastname + "---Passed");
 		} else {
 			System.out.println(lastname + "---Failed");
-		}
+		}*/
 	}
 
 }

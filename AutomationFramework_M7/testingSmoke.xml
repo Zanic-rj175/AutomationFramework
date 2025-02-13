@@ -3,8 +3,8 @@
 <suite parallel="tests" name="Suite">
   <test thread-count="5" parallel="tests" name="Test">
     <classes>
-      <class name="contactTest.ToCreateContactwithOrgTest"/>
       <class name="contactTest.ToCreateContactTest"/>
+      <class name="contactTest.ToCreateContactwithOrgTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
