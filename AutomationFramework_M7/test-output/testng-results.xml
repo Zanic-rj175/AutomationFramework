@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[---DataBase connection Established---]]>
@@ -14,6 +14,15 @@
       <![CDATA[Browser got Launched Successfully]]>
     </line>
     <line>
+      <![CDATA[Browser got Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+    </line>
+    <line>
       <![CDATA[Navigate to Vtiger HomePage Successfully]]>
     </line>
     <line>
@@ -21,83 +30,158 @@
     </line>
     <line>
       <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Contact create successfully]]>
+    </line>
+    <line>
+      <![CDATA[Contact with Organization Test create successfully]]>
     </line>
     <line>
       <![CDATA[---DataBase connection Disconnection---]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-14T08:54:58 IST" name="Suite" finished-at="2025-02-14T08:56:05 IST" duration-ms="67068">
+  <suite started-at="2025-02-14T09:08:04 IST" name="Suite" finished-at="2025-02-14T09:10:11 IST" duration-ms="127301">
     <groups>
       <group name="regration">
-        <method signature="ToCreateOrgTest.toCreateOrgTest_001()[pri:0, instance:organizationTest.ToCreateOrgTest@a1153bc]" name="toCreateOrgTest_001" class="organizationTest.ToCreateOrgTest"/>
-        <method signature="ToCreateOrgWithChemicalDropdownTest.toCreateOrgWithChemicalDropdown_002()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" name="toCreateOrgWithChemicalDropdown_002" class="organizationTest.ToCreateOrgWithChemicalDropdownTest"/>
-        <method signature="ToCreateOrgWithTypeDropdownTest.toCreateOrgWithTypeDropdown_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@1aafa419]" name="toCreateOrgWithTypeDropdown_003" class="organizationTest.ToCreateOrgWithTypeDropdownTest"/>
+        <method signature="ToCreateOrgTest.toCreateOrgTest_001()[pri:0, instance:organizationTest.ToCreateOrgTest@235834f2]" name="toCreateOrgTest_001" class="organizationTest.ToCreateOrgTest"/>
+        <method signature="ToCreateOrgWithChemicalDropdownTest.toCreateOrgWithChemicalDropdown_002()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" name="toCreateOrgWithChemicalDropdown_002" class="organizationTest.ToCreateOrgWithChemicalDropdownTest"/>
+        <method signature="ToCreateOrgWithTypeDropdownTest.toCreateOrgWithTypeDropdown_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@14cd1699]" name="toCreateOrgWithTypeDropdown_003" class="organizationTest.ToCreateOrgWithTypeDropdownTest"/>
       </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="ToCreateContactTest.toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@76505305]" name="toCreateContact_001" class="contactTest.ToCreateContactTest"/>
+        <method signature="ToCreateContactwithOrgTest.toCreateContactWithOrgTest_002()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@5656be13]" name="toCreateContactWithOrgTest_002" class="contactTest.ToCreateContactwithOrgTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-02-14T08:54:58 IST" name="Test" finished-at="2025-02-14T08:56:05 IST" duration-ms="67068">
-      <class name="organizationTest.ToCreateOrgTest">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@a1153bc]" started-at="2025-02-14T08:54:58 IST" name="bcConfig" finished-at="2025-02-14T08:55:07 IST" duration-ms="8484" status="PASS">
+    <test started-at="2025-02-14T09:08:04 IST" name="Test" finished-at="2025-02-14T09:10:11 IST" duration-ms="127301">
+      <class name="contactTest.ToCreateContactTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactTest@76505305]" started-at="2025-02-14T09:08:04 IST" name="bcConfig" finished-at="2025-02-14T09:08:25 IST" duration-ms="20999" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got Launched Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@a1153bc]" started-at="2025-02-14T08:55:07 IST" name="bmConfig" finished-at="2025-02-14T08:55:23 IST" duration-ms="16240" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactTest@76505305]" started-at="2025-02-14T09:08:27 IST" name="bmConfig" finished-at="2025-02-14T09:08:54 IST" duration-ms="27425" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to Vtiger HomePage Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="toCreateOrgTest_001()[pri:0, instance:organizationTest.ToCreateOrgTest@a1153bc]" started-at="2025-02-14T08:55:23 IST" name="toCreateOrgTest_001" finished-at="2025-02-14T08:56:03 IST" duration-ms="40041" status="PASS">
+        <test-method signature="toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@76505305]" started-at="2025-02-14T09:08:54 IST" name="toCreateContact_001" finished-at="2025-02-14T09:09:45 IST" duration-ms="50791" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Contact create successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- toCreateOrgTest_001 -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@a1153bc]" started-at="2025-02-14T08:56:03 IST" name="amConfig" finished-at="2025-02-14T08:56:04 IST" duration-ms="659" status="PASS">
+        </test-method> <!-- toCreateContact_001 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactTest@76505305]" started-at="2025-02-14T09:09:45 IST" name="amConfig" finished-at="2025-02-14T09:09:52 IST" duration-ms="7145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@a1153bc]" started-at="2025-02-14T08:56:04 IST" name="acConfig" finished-at="2025-02-14T08:56:05 IST" duration-ms="1228" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactTest@76505305]" started-at="2025-02-14T09:09:52 IST" name="acConfig" finished-at="2025-02-14T09:09:57 IST" duration-ms="5015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- contactTest.ToCreateContactTest -->
+      <class name="contactTest.ToCreateContactwithOrgTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@5656be13]" started-at="2025-02-14T09:08:04 IST" name="bcConfig" finished-at="2025-02-14T09:08:29 IST" duration-ms="24750" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@5656be13]" started-at="2025-02-14T09:08:29 IST" name="bmConfig" finished-at="2025-02-14T09:09:36 IST" duration-ms="67234" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateContactWithOrgTest_002()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@5656be13]" started-at="2025-02-14T09:09:36 IST" name="toCreateContactWithOrgTest_002" finished-at="2025-02-14T09:10:10 IST" duration-ms="34283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact with Organization Test create successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateContactWithOrgTest_002 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@5656be13]" started-at="2025-02-14T09:10:10 IST" name="amConfig" finished-at="2025-02-14T09:10:11 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactwithOrgTest@5656be13]" started-at="2025-02-14T09:10:11 IST" name="acConfig" finished-at="2025-02-14T09:10:11 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- contactTest.ToCreateContactwithOrgTest -->
+      <class name="organizationTest.ToCreateOrgTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@235834f2]" started-at="2025-02-14T09:08:04 IST" name="bcConfig" finished-at="2025-02-14T09:08:28 IST" duration-ms="23866" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@235834f2]" started-at="2025-02-14T09:08:28 IST" name="bmConfig" finished-at="2025-02-14T09:08:55 IST" duration-ms="26622" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Vtiger HomePage Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateOrgTest_001()[pri:0, instance:organizationTest.ToCreateOrgTest@235834f2]" started-at="2025-02-14T09:08:55 IST" name="toCreateOrgTest_001" finished-at="2025-02-14T09:09:33 IST" duration-ms="37922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrgTest_001 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@235834f2]" started-at="2025-02-14T09:09:33 IST" name="amConfig" finished-at="2025-02-14T09:09:38 IST" duration-ms="5413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@235834f2]" started-at="2025-02-14T09:09:38 IST" name="acConfig" finished-at="2025-02-14T09:09:57 IST" duration-ms="19342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
       </class> <!-- organizationTest.ToCreateOrgTest -->
       <class name="organizationTest.ToCreateOrgWithChemicalDropdownTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:54:58 IST" name="bsConfig" finished-at="2025-02-14T08:54:58 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:08:04 IST" name="bsConfig" finished-at="2025-02-14T09:08:04 IST" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---DataBase connection Established---]]>
             </line>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:54:58 IST" name="bcConfig" finished-at="2025-02-14T08:55:07 IST" duration-ms="9015" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:08:04 IST" name="bcConfig" finished-at="2025-02-14T09:08:29 IST" duration-ms="24662" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got Launched Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:55:07 IST" name="bmConfig" finished-at="2025-02-14T08:55:19 IST" duration-ms="11772" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:08:29 IST" name="bmConfig" finished-at="2025-02-14T09:08:54 IST" duration-ms="25423" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to Vtiger HomePage Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="toCreateOrgWithChemicalDropdown_002()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:55:19 IST" name="toCreateOrgWithChemicalDropdown_002" finished-at="2025-02-14T08:56:03 IST" duration-ms="44116" status="PASS">
+        <test-method signature="toCreateOrgWithChemicalDropdown_002()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:08:54 IST" name="toCreateOrgWithChemicalDropdown_002" finished-at="2025-02-14T09:09:35 IST" duration-ms="40929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toCreateOrgWithChemicalDropdown_002 -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:56:03 IST" name="amConfig" finished-at="2025-02-14T08:56:04 IST" duration-ms="640" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:09:35 IST" name="amConfig" finished-at="2025-02-14T09:09:42 IST" duration-ms="7134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:56:04 IST" name="acConfig" finished-at="2025-02-14T08:56:05 IST" duration-ms="1462" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:09:42 IST" name="acConfig" finished-at="2025-02-14T09:09:58 IST" duration-ms="15203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@128d2484]" started-at="2025-02-14T08:56:05 IST" name="asConfig" finished-at="2025-02-14T08:56:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:organizationTest.ToCreateOrgWithChemicalDropdownTest@692f203f]" started-at="2025-02-14T09:10:12 IST" name="asConfig" finished-at="2025-02-14T09:10:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---DataBase connection Disconnection---]]>
@@ -106,29 +190,29 @@
         </test-method> <!-- asConfig -->
       </class> <!-- organizationTest.ToCreateOrgWithChemicalDropdownTest -->
       <class name="organizationTest.ToCreateOrgWithTypeDropdownTest">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@1aafa419]" started-at="2025-02-14T08:54:58 IST" name="bcConfig" finished-at="2025-02-14T08:55:07 IST" duration-ms="8604" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@14cd1699]" started-at="2025-02-14T09:08:04 IST" name="bcConfig" finished-at="2025-02-14T09:08:29 IST" duration-ms="24992" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got Launched Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@1aafa419]" started-at="2025-02-14T08:55:07 IST" name="bmConfig" finished-at="2025-02-14T08:55:17 IST" duration-ms="9780" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@14cd1699]" started-at="2025-02-14T09:08:29 IST" name="bmConfig" finished-at="2025-02-14T09:09:13 IST" duration-ms="43835" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to Vtiger HomePage Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="toCreateOrgWithTypeDropdown_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@1aafa419]" started-at="2025-02-14T08:55:17 IST" name="toCreateOrgWithTypeDropdown_003" finished-at="2025-02-14T08:56:04 IST" duration-ms="47050" status="PASS">
+        <test-method signature="toCreateOrgWithTypeDropdown_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@14cd1699]" started-at="2025-02-14T09:09:13 IST" name="toCreateOrgWithTypeDropdown_003" finished-at="2025-02-14T09:09:56 IST" duration-ms="43219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toCreateOrgWithTypeDropdown_003 -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@1aafa419]" started-at="2025-02-14T08:56:04 IST" name="amConfig" finished-at="2025-02-14T08:56:04 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@14cd1699]" started-at="2025-02-14T09:09:56 IST" name="amConfig" finished-at="2025-02-14T09:10:01 IST" duration-ms="5331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@1aafa419]" started-at="2025-02-14T08:56:04 IST" name="acConfig" finished-at="2025-02-14T08:56:05 IST" duration-ms="1238" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeDropdownTest@14cd1699]" started-at="2025-02-14T09:10:01 IST" name="acConfig" finished-at="2025-02-14T09:10:03 IST" duration-ms="1143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
